@@ -1,0 +1,53 @@
+.center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 28rem;
+    box-shadow: 2rem 2rem 2rem rgba(88, 164, 187, 0.2);
+    padding: 2rem;
+    border-radius: 2rem;
+    border-color: black;
+    background-color: #636869;
+}
+
+.scndWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+label {
+    color: rgb(229, 245, 7);
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    margin-left: 1.5rem;
+    background-color: rgb(177, 136, 1);
+       box-shadow: 0 2rem 2rem rgba(8, 8, 8, 0.2);
+    color: rgb(236, 236, 245);
+    border-color: rgb(15, 15, 15);
+    border-radius: 0.5rem;
+    width: 5rem;
+}
+
+input {
+    width: 18rem;
+    border-radius: 2rem;
+    height: 1cm;
+    text-align: center;
+}
+.undoButt {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  

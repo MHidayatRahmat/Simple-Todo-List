@@ -1,0 +1,46 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.BellowWrapper {
+  margin-top: 20px;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0rem;
+  margin-right: 2rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border-color: black;
+  background-color: #fbff07;
+  width: 26rem;
+  height: auto;
+  font-size: 1.5rem;
+}
+.todo-container.completed{
+  background-color: #07ff28;
+}
+
+.buttonDandC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+.buttonDandC button {
+  margin-bottom: 0.5rem;
+}
+
+.todo-text {
+  max-width: calc(100% - 8rem); /* adjust this value as needed */
+  overflow-wrap: break-word;
+  font-size: 1300;
+}
